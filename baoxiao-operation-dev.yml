@@ -10,7 +10,7 @@ spring:
   elasticjob:
     zookeeper:
       server-lists: 127.0.0.1:2181
-      namespace: baoxiao-opration
+      namespace: baoxiao-operation
 #mybaits-plus配置，修改主键类型，mapper.xml、type 别名等
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
