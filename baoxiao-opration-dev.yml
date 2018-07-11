@@ -29,3 +29,5 @@ mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
     cache-enabled: true
+#调用服务列表
+baoxiao.member.service=baoxiao-member-service
