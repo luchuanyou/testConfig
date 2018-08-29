@@ -7,4 +7,5 @@ fdfs:
     - 192.168.1.112:22122
 
 #token秘钥
-h5.token.encryptKey=abcdefghigklmnop
+h5: 
+    tokenEncryptKey: abcdefghigklmnop
