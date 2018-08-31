@@ -6,6 +6,16 @@ fdfs:
   tracker-list:
     - 192.168.1.112:22122
 
-#token秘钥
+    
+#H5配置参数
 h5: 
+    #token秘钥
     tokenEncryptKey: abcdefghigklmnop
+    #嘉福
+    jiafu:
+        #嘉福总部请求地址
+        url: https://test.jia-fu.cn/open/h5/launcher
+        #嘉福总部接入识别码
+        ident: zhihuijia
+        #嘉福总部秘钥key
+        key: 0d4e87d870c7429bcc29c92cbaf8feb8
