@@ -1,12 +1,29 @@
 #加密配置
 jasypt:
   encryptor:
-<<<<<<< HEAD
     password: 123
-=======
-    password: 123456456123
->>>>>>> a
 
+server:
+  tomcat:
+    max-threads: 500 # Maximum amount of worker threads.
+    min-spare-threads: 50 # Minimum amount of worker threads
+
+spring:
+  redis:
+    remote: false        #cachecloud 获取
+    host: 192.168.1.23
+    port: 6379
+    password: 123456
+  rabbitmq:
+    host: 192.168.1.23
+    port: 5672
+    username: pig
+    password: 123456
+  http:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+	  
 server:
   tomcat:
     max-threads: 500 # Maximum amount of worker threads.
