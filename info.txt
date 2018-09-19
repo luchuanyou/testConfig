@@ -1,7 +1,7 @@
 #加密配置
 jasypt:
   encryptor:
-    password: 123456
+    password: 123456456
 
 server:
   tomcat:
